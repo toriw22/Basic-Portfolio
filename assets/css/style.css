@@ -1,58 +1,155 @@
 body {
 
-	background-image: url("/assets/Images/background.png")>;
+	background-image: url("../Images/background.png");
+	width: 960px;
+	margin:0px;
+
+}
+
+.box {
+
+	background-color:#ffffff;
 	width: 960px;
 
 }
 
-header {
-
-	background-color:#ffffff;
-	border-color:#cccccc;
-	font-family: "Georgia", serif;
-	width: 150%;
-
-}
-
-#meBench {
-
-	height: 330px;
-	width: 435px;
+.boxName {
+	background-color: #4aaaa5;
+	color: white;
+	width: 215px;
+	padding: 5px;
+	top:0px;
+	margin-left:30px;
 
 }
 
 h1 {
 
-	background-color: #4aaaa5;
-	color: white;
-	width: 215px;
+	color:white;
 	text-align: center;
-	padding: 20px;
-	
+	font-family: Georgia, serif;
+	font-size: 35px;
+
+}
+
+header {
+
+	background-color: white;
+	width: 960px;
+	left:0px;
+	border-bottom: solid #cccccc 2px;
+
+}
+
+.boxBody {
+
+	margin-left: 30px;
+	height: 510px;
+	width: 600px;
+	border: solid #cccccc 1px;
+
+}
+
+.boxNav {
+
+	height: 250px;
+	width: 290px;
+	background-color: white;
+	border: solid #cccccc 1px;
+	position: absolute;
+	top: 135px;
+	left: 669px;
+
 }
 
 h2 {
 
-	font-family: Times, serif;
+	font-family: Georgia, serif;
+	color: #4aaaa5;
+	margin-left:15px;
+	margin-bottom:20px;
+	margin-right:15px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #dddddd;
+	font-size: 30px;
 
 }
 
-p{
+.sideMenu {
 
+	font-family: Helvetica, sans-serif;
+	float: right;
+	margin-top:30px;
+	margin-right:43px;
+	color: grey;
+	word-spacing: 10px;
+
+}
+
+#meBench {
+
+	height: 247px;
+	width: 326px;
+	float: left;
+	margin-left:15px;
+	margin-right: 15px;
+
+}
+
+p {
+
+	line-height:1.5;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	font-family: Helvetica, sans-serif;
-
+	margin-left: 15px;
+	margin-right:20px;
 
 }
 
-footer {
+.footer {
 
 	background-color: #666666;
 	color: white;
 	text-align: center;
-	padding:30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	font-family: "Arial", sans-serif;
-	width: 150%;
+	width: 960px;
+	border-top: 8px solid #4aaaa5;
+	bottom: 0px;
+	margin-top: 70px;
+
+}
+
+#contact {
+
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+
+}
+
+a:link {
+
+	font-family: Helvetica, sans-serif;
+	color: grey;
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	font-family: Helvetica, sans-serif;
+	color: grey;
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	font-family: Helvetica, sans-serif;
+	color: #c8e5e4;
+	text-decoration: none;
 
 }
